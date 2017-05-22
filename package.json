@@ -9,6 +9,15 @@
   "author": "Rakesh Chotalia",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.15.0"
   }
 }
