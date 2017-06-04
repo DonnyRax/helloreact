@@ -8,13 +8,15 @@ module.exports = {
         extentions: ['','.js','.jsx']
     },
     module: {
-        loader: {
-            loader: 'babel',
-            query: {
-                presets: ['es2015','react']
-            },
-            test: '/\.jsx?$/',
-            exclude: /(node_modules|bower_compnents)/
-        }
+        loaders:[ 
+            {
+                loader: 'babel-loader',
+                query: {
+                    presets: ['react','es2015']
+                },
+                test: /\.jsx?$/,
+                exclude: /(node_modules|bower_compnents)/
+            }
+        ]
     }
 };
